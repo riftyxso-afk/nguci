@@ -50,12 +50,12 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full px-4 sm:px-8 pt-4">
+    <header className="sticky top-0 z-50 w-full px-3 sm:px-8 pt-3 sm:pt-4">
       <div
-        className={`mx-auto max-w-7xl rounded-full transition-all duration-200 px-6 py-3 flex items-center justify-between ${
+        className={`mx-auto max-w-7xl rounded-full transition-all duration-200 px-4 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between ${
           scrolled
-            ? "bg-white/85 backdrop-blur-md shadow-sm border border-black/[0.06]"
-            : "bg-white/60 backdrop-blur-sm"
+            ? "bg-white/90 backdrop-blur-md shadow-sm border border-black/[0.06]"
+            : "bg-white/70 backdrop-blur-sm"
         }`}
       >
         {/* Logo */}
